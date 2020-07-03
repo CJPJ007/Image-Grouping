@@ -1,0 +1,8 @@
+The following approach I used for image grouping:
+
+1.Preprocessing of images in which I reduced dimension of images to 32*32 and normalised pixel 
+values.
+
+2.After preprocessing of images standard unsupervised algorithm KMeans clustering I used to form cluster of images which gave really good result was able to form groups of different products.
+
+3.Using labels_ attribute of kmeans model/class I used for visualing whether images of same product are clustered in one or not. 
